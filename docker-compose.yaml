@@ -1,7 +1,7 @@
 version: '3'
 services:
   dbus:
-    image: mruettgers/rpi-dbus
+    image: mruettgers/dbus
     restart: unless-stopped
     networks:
       backend:
